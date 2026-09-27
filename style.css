@@ -85,3 +85,22 @@ input {
 .light-mode .login-container p {
     color: #222;
 }
+.light-mode {
+    color: #222 !important;
+}
+
+.light-mode * {
+    color: #222 !important;
+}
+
+.light-mode input {
+    color: #222 !important;
+}
+
+.light-mode input::placeholder {
+    color: #555 !important;
+}
+
+.light-mode #themeToggle {
+    color: white !important;
+}
