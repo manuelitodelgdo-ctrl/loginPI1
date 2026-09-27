@@ -23,3 +23,8 @@ registro.addEventListener("click", function(event) {
 
     alert("Página de registro próximamente");
 });
+const themeToggle = document.getElementById("themeToggle");
+
+themeToggle.addEventListener("click", function() {
+    document.body.classList.toggle("light-mode");
+});

@@ -52,3 +52,21 @@ input {
 #registro:hover {
     text-decoration: underline;
 }
+.light-mode {
+    background: #f2f2f2;
+}
+
+.light-mode .login-container {
+    background: white;
+    color: #222;
+}
+
+.light-mode input {
+    background: #eee;
+    color: #222;
+}
+
+.light-mode #themeToggle {
+    background: #222;
+    color: white;
+}
