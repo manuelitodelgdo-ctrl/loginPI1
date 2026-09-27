@@ -80,3 +80,8 @@ input {
     background: #d4af37;
     color: #111;
 }
+.light-mode .login-container h1,
+.light-mode .login-container label,
+.light-mode .login-container p {
+    color: #222;
+}
