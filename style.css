@@ -120,3 +120,18 @@ input {
     background: #d4af37;
     color: #111;
 }
+button[type="submit"] {
+    background: #d4af37;
+    color: #111;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button[type="submit"]:hover {
+    background: #f0c94b;
+    transform: scale(1.03);
+}
