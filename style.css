@@ -104,3 +104,14 @@ input {
 .light-mode #themeToggle {
     color: white !important;
 }
+#registro {
+    display: inline-block;
+    margin-top: 15px;
+    color: #d4af37;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#registro:hover {
+    text-decoration: underline;
+}
