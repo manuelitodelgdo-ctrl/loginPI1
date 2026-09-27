@@ -107,11 +107,16 @@ input {
 #registro {
     display: inline-block;
     margin-top: 15px;
+    padding: 8px 16px;
+    border: 1px solid #d4af37;
+    border-radius: 20px;
     color: #d4af37;
     text-decoration: none;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 #registro:hover {
-    text-decoration: underline;
+    background: #d4af37;
+    color: #111;
 }
